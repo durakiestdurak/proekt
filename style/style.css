@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: My Gill Sans, Lato, sans-serif;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #121214;
+}
+nav{
+    width: 1200px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A6A8AD;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 618px;
+    height: 30px;
+    margin-left: 20px;   
+}
+.navigation li{
+    list-style: none;
+}
+.navigation a{
+    color: #A6A8AD;
+    text-decoration: none;
+}
+.login{
+    margin-right:23px ;
+}
+.login .sign-up button{
+    width: 95px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.login .log-in{
+    text-decoration: none;
+    color: #A6A8AD;
+}
+.free-sounds{
+    width: 1200px;
+    text-align: center;
+    height: 46px;
+    background-color: #0033FF;
+}
+.free-sounds div{
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;  
+    padding-top: 11px; 
+    align-items: center;
+}
+.free-sounds div .text-sounds{
+   width: 640px;
+   height: 24px;
+   margin-left: 240px;
+}
+.free-sounds div a{
+    width: 80px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+}
+main{
+    width: 1200px;
+height: 744px;
+left: 0px;
+top: 117px;
+
+background: url(./img/banners/IMAGE.png);
+border-radius: 0px;
+}
+.container{
+    width: 1104px;
+    margin: 0 auto;
+}
+.main-title{
+    padding-top: 140px;
+}
+.main-title h1{
+    font-family: My Gill Sans, Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.main-title p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+}
+.main-title .try-free-btn{
+    width: 125px;
+    height: 56px;
+    background: #0033FF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 150px;
+}
+.learn-more{
+    text-align: center;
+}
+.learn-more a{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    width: 123px;
+    color: #FFFFFF;    
+    margin-bottom: 17.23px;
+}
+.learn-more::after{
+    content: url(./img/Vector.svg);
+}
+.Sounds{
+    width: 1200px;
+    height: 482px;
+}
+.sound{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sounds-text span{
+    font: My Gill Sans, Lato, sans-serif;;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #A6A8AD;
+}
+.sounds-text h1{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.sounds-text p{
+    font-family: My Gill Sans, Lato, sans-serif;; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.explore-sounds{
+    width: 159px;
+    height: 36px;
+    background: #0033FF;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+.sound{
+    margin-top: 96px;
+}
+
+/* 2 */
+
+.Connected-Experiences{
+    width: 1200px;
+    height: 482px;
+}
+.connected-experience{
+    display: flex;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.connected-text{
+    text-align: right;
+}
+.connected-text span{
+    font: My Gill Sans, Lato, sans-serif;;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #A6A8AD;
+}
+.connected-text h1{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.connected-text p{
+    font-family: My Gill Sans, Lato, sans-serif;; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.explore-gear{
+    width: 159px;
+    height: 36px;
+    background: #0033FF;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+/* 3 */
+.Gears{
+    width: 1200px;
+    height: 482px;
+}
+.Gear{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gear-text span{
+    font: My Gill Sans, Lato, sans-serif;;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #A6A8AD;
+}
+.gear-text h1{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.gear-text p{
+    font-family: My Gill Sans, Lato, sans-serif;; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.explore-sounds{
+    width: 159px;
+    height: 36px;
+    background: #0033FF;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+.Gears{
+    margin-top: 96px;
+}
+
+
+
+
+/* 4 */
+.Technology-Experiences{
+    width: 1200px;
+    height: 482px;
+}
+.technology-experience{
+    display: flex;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.technology-text{
+    text-align: right;
+}
+.technology-text span{
+    font: My Gill Sans, Lato, sans-serif;;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #A6A8AD;
+}
+.technology-text h1{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.technology-text p{
+    font-family: My Gill Sans, Lato, sans-serif;; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.explore-technology{
+    width: 159px;
+    height: 36px;
+    background: #0033FF;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+.Splice{
+    width: 1200px;
+    height: 753px;
+}
+.card-gr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-text p{
+    margin-bottom: 6px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 361px;
+    height: 453px;
+    background: #F8F8F8;
+    border-radius: 8px;
+}
+.card-text{
+    width: 296px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+.img-card{
+    margin-top: 32px;
+    margin-bottom: 30px;
+    width: 223px;
+    height: 223px;
+    border-radius: 50%;
+}
+.card-text a{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    margin-left: 0 !important;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767676; 
+    margin-bottom: 32px;
+}
+.Splice h1{
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 120px;
+    margin-bottom: 24px;
+}
+.Try-Splice-today{
+    width: 1200px;
+    height: 728px;
+    background: url(./img/banners/IMAGE\ \(8\).png);
+    border-radius: 0px;
+}
+.Try-Splice-today h1{
+    text-align: center;
+    padding-top: 283px;
+    margin-bottom: 57px;
+    font-style: normal;
+    font-family: My Gill Sans, Lato, sans-serif;;
+    font-weight: 400;
+    font-size: 54px;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+.Try-Splice-today a{
+    text-decoration: none;
+}
+.Try-Splice-today button{
+    margin: 0 auto;
+    display: block;
+    width: 114px;
+    height: 40px;
+    background: #0033FF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+.kategories{
+    margin-bottom: 83px;
+    margin-top: 48px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.kategory li{
+    list-style: none;
+    margin-top: 11px;
+}
+.kategory li a{
+    font-family: My Gill Sans, Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A6A8AD;
+    text-decoration: none;
+}
+.kategory li h1 a{
+    text-decoration: none;
+    font-family: My Gill Sans, Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.kategory{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.dop{
+    margin-bottom: 60px;
+}
+.dop ul{
+    display: flex;
+    align-items: center;
+}
+.dop li{
+    list-style: none;
+    margin-right: 24px;
+}
+.dop a{
+    text-decoration: none;
+    color: #A6A8AD;
+}
